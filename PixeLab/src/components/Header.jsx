@@ -2,7 +2,8 @@
 function Header(){
   return(
     < >
-          <footer className="footer__container">
+      <div className="container">
+            <footer className="footer__container">
         <div className="navBrand">
           <img className="logo" src="src/img/Logo.svg" alt="" />
         </div>
@@ -19,6 +20,8 @@ function Header(){
           <a className="link" href="/">Sign up</a>
         </div>
       </footer>
+    </div>
+          
     </>
   )
 }
