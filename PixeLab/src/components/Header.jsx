@@ -2,8 +2,7 @@
 function Header(){
   return(
     < >
-      <div className="container">
-            <footer className="footer__container">
+      <header className="header__container">
         <div className="navBrand">
           <img className="logo" src="src/img/Logo.svg" alt="" />
         </div>
@@ -16,12 +15,10 @@ function Header(){
           </ul>
         </nav>
         <div className="navBar__btn">
-          <a className="link" href="/">Log in</a>
+          <a className="link active" href="/">Log in</a>
           <a className="link" href="/">Sign up</a>
         </div>
-      </footer>
-    </div>
-          
+      </header>
     </>
   )
 }
