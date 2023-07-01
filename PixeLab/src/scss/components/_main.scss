@@ -49,9 +49,84 @@
     padding: px-to-rem(10px);
     width: 100%;
     img{
+      background-image: url(/src/img/Ellipse\ 1.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
       width: 100%;
     }
   }
+}
+
+.section__02{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: px-to-rem(200px);
+  gap: px-to-rem(80px);
+  .row__01{
+    p{
+      font-size: px-to-rem(14px);
+      font-weight: 700;
+      color: $txt_color07;
+    }
+    h2{
+      font-size: px-to-rem(52px);
+      font-weight: 700;
+      color: $txt_color06;
+    }
+  }
+  .row__02{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: px-to-rem(57px) ;
+      padding: px-to-rem(5px);
+      .card{
+        width: px-to-rem(330px);
+        height: px-to-rem(480px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: px-to-rem(15px);
+        border: 1px solid;
+        padding: px-to-rem(15px);
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 9px 27px 2px rgba(184, 184, 184, 0.753);
+        -moz-box-shadow: 0px 9px 27px 2px rgba(184, 184, 184, 0.753);
+        box-shadow: 0px 9px 27px 2px rgba(184, 184, 184, 0.753);
+        h3{
+          font-size: px-to-rem(28px);
+          font-weight: 700;
+          color: $txt_color04;
+        }
+        p{
+          font-size: px-to-rem(18px);
+          color: $txt_color04;
+        }
+        a{
+          background-color: $bg_color01;
+          color: $txt_color02;
+          font-size: px-to-rem(18px);
+          font-weight: 500;
+          width: px-to-rem(162px);
+          height: px-to-rem(49px);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 8px;
+          &:hover{
+            background-color: #ff6600c4;
+            transition: 800ms;
+            transform: scale(1.1);
+          }
+        }
+      }
+  }
+  
 }
 
 @media screen and (max-width:912px) {
@@ -61,5 +136,11 @@
       .col__rigth{
         align-items: center;
       }
+    }
+    .section__02{
+      .row__02{
+        flex-direction: column;
+      }
+      
     }
 }
