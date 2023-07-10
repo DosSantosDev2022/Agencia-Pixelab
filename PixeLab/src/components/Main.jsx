@@ -38,6 +38,16 @@ function Main(){
           </div>
         </div>
       </section>
+      <section className="section__03">
+        <div className="col__rigth">
+          <h4>Many Blocks and Components</h4>
+          <p>Startup Framework contains components and complex blocks which can easily be integrated into almost any design.</p>
+          <a href="/">Explore</a>
+        </div>
+        <div className="col__left">
+          <img src="./src/img/Video.png" alt="" />
+        </div>
+      </section>
     </>
   )
 }
