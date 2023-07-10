@@ -96,6 +96,29 @@ function Main(){
           </div>
         </div>
       </section>
+      <section className="section__05">
+        <div className="row__01">
+            <p>OUR TEAM</p>
+            <h4>Meet The Team</h4>
+        </div>
+        <div className="row__02">
+          <div className="card">
+            <img src="/src/img/team01.png" alt="" />
+            <h6>Vanessa Laird</h6>
+            <p>UI Designer</p>
+          </div>
+          <div className="card">
+            <img src="/src/img/team02.png" alt="" />
+            <h6>Mason Campbell</h6>
+            <p>UI Designer</p>
+          </div>
+          <div className="card">
+            <img src="/src/img/team03.png" alt="" />
+            <h6>Irea Evans</h6>
+            <p>Client Manager</p>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
