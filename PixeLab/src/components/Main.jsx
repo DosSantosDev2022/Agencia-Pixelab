@@ -106,6 +106,11 @@ function Main(){
             <img src="/src/img/team01.png" alt="" />
             <h6>Vanessa Laird</h6>
             <p>UI Designer</p>
+            <div className="social">
+              <p>T</p>
+              <p>I</p>
+              <p>F</p>
+            </div>
           </div>
           <div className="card">
             <img src="/src/img/team02.png" alt="" />
