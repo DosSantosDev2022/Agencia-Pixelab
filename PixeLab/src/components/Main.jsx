@@ -48,6 +48,54 @@ function Main(){
           <img src="./src/img/Video.png" alt="" />
         </div>
       </section>
+      <section className="section__04">
+        <div className="row__01">
+          <p>TESTMONIALS</p>
+          <h4>What Clients say about us</h4>
+        </div>
+        <div className="row__02">
+          <div className="col__left">
+            <div className="card">
+              <div className="perfil">
+                <img src="./src/img/Mask.png" alt="" />
+              </div>
+              <div className="description">
+                <p>Get a fully retina ready site when you build with Startup Framework. Websites look sharper and more gorgeous on devices with retina display support</p>
+                <span>Rayhan Curran</span>
+              </div>
+            </div>
+            <div className="card">
+              <div className="perfil">
+              <img src="./src/img/Mask1.png" alt="" />
+              </div>
+              <div className="description">
+                <p>As a business targeting high net worth individuals, we were looking for a slick, cool and mini-malistic design for our website</p>
+                <span>Kayley Frame</span>
+              </div>
+            </div>
+          </div>
+          <div className="col__rigth">
+            <div className="card">
+              <div className="perfil">
+              <img src="./src/img/Mask3.png" alt="" />
+              </div>
+              <div className="description">
+                <p>I’ve built my website with Startup just in one day, and it was ready-to-go. </p>
+                <span>Allan Kim</span>
+              </div>
+            </div>
+            <div className="card">
+              <div className="perfil">
+              <img src="./src/img/Mask2.png" alt="" />
+              </div>
+              <div className="description">
+                <p>The most important part of the Startup Framework is the samples</p>
+                <span>Gene Whitfield</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
