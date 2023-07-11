@@ -239,6 +239,16 @@
     text-align: center;
     gap: px-to-rem(15px);
     margin-top: px-to-rem(25px);
+    p{
+      font-size: px-to-rem(14px);
+      font-weight: 300;
+      color: $txt_color07;
+    }
+    h6{
+      font-size: px-to-rem(50px);
+      font-weight: 700;
+      color: $txt_color03;
+    }
   }
   .row__02{
     width: 100%;
@@ -259,7 +269,91 @@
       align-items: center;
       justify-content: center;
       gap: px-to-rem(15px);
+      h6{
+        font-size: px-to-rem(22px);
+        font-weight: 700;
+        color: $txt_color03;
+      }
+      p{
+        font-size: px-to-rem(17px);
+        font-weight: 500;
+        color: $txt_color07;
+      }
+      .social{
+        display: flex;
+        gap: px-to-rem(15px);
+        .icon{
+          font-size: px-to-rem(40px);
+          color: $txt_color01;
+          &:hover{
+            transition: 800ms;
+            transform: scale(1.1);
+          }
+        }
+      }
       
+    }
+  }
+}
+
+.section__06{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: px-to-rem(127px);
+  .row__01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: px-to-rem(85px);
+    padding: px-to-rem(10px);
+    p{
+      font-size: px-to-rem(14px);
+      font-weight: 300;
+      color: $txt_color07;
+    }
+    h6{
+      font-size: px-to-rem(50px);
+      font-weight: 700;
+      color: $txt_color03;
+    }
+  }
+  .row__02{
+    display: flex;
+    align-items: center;
+    padding: px-to-rem(15px);
+    .inputs{
+      display: flex;
+      flex-direction: column;
+      gap: px-to-rem(51px);
+      p{
+        font-size: px-to-rem(18px);
+        font-weight: 400;
+        line-height: px-to-rem(28.5px);
+      }
+      input{
+          border-radius: 8px;
+          padding: px-to-rem(18px);
+          outline: none;
+          border: none;
+          background-color: #ececec;
+      }
+      .btn{
+        width: 100%;
+        height: px-to-rem(49px);
+        border: none;
+        border-radius: 10px;
+        background: #F60;
+        color: $txt_color02;
+        font-size: px-to-rem(19px);
+        font-weight: 700;
+        cursor: pointer;
+        &:hover{
+          background-color: #ff6600c4;
+          transition: 800ms;
+        }
+      }
     }
   }
 }
@@ -295,6 +389,13 @@
         .card{
           width: 80%;
         }
+      }
+    }
+
+    .section__06{
+      .row__02{
+        flex-direction: column;
+        width: 100%;
       }
     }
 }
