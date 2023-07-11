@@ -1,3 +1,6 @@
+import { FaSquareInstagram } from "react-icons/fa6";
+import { FaSquareTwitter} from "react-icons/fa6";
+import { FaLinkedin} from "react-icons/fa6";
 
 function Main(){
   return (
@@ -99,7 +102,7 @@ function Main(){
       <section className="section__05">
         <div className="row__01">
             <p>OUR TEAM</p>
-            <h4>Meet The Team</h4>
+            <h6>Meet The Team</h6>
         </div>
         <div className="row__02">
           <div className="card">
@@ -107,22 +110,46 @@ function Main(){
             <h6>Vanessa Laird</h6>
             <p>UI Designer</p>
             <div className="social">
-              <p>T</p>
-              <p>I</p>
-              <p>F</p>
+              <a href="/"><FaSquareTwitter className="icon"/></a>
+              <a href="/"><FaSquareInstagram className="icon"/></a>
+              <a href="/"><FaLinkedin className="icon"/></a>
             </div>
           </div>
           <div className="card">
             <img src="/src/img/team02.png" alt="" />
             <h6>Mason Campbell</h6>
             <p>UI Designer</p>
+            <div className="social">
+              <a href="/"><FaSquareTwitter className="icon"/></a>
+              <a href="/"><FaSquareInstagram className="icon"/></a>
+              <a href="/"><FaLinkedin className="icon"/></a>
+            </div>
           </div>
           <div className="card">
             <img src="/src/img/team03.png" alt="" />
             <h6>Irea Evans</h6>
             <p>Client Manager</p>
+            <div className="social">
+              <a href="/"><FaSquareTwitter className="icon"/></a>
+              <a href="/"><FaSquareInstagram className="icon"/></a>
+              <a href="/"><FaLinkedin className="icon"/></a>
+            </div>
           </div>
         </div>
+      </section>
+      <section className="section__06">
+          <div className="row__01">
+            <p>Contato</p>
+            <h6>Subscribe Our Newsleter</h6>
+          </div>
+          <div className="row__02">
+              <img src="/src/img/envelope.svg" alt="" />
+            <div className="inputs">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+              <input className="input" type="text" placeholder="Your E-mail here.." required />
+              <button className="btn">Subscribe</button>
+            </div>
+          </div>
       </section>
     </>
   )
